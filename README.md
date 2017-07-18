@@ -13,3 +13,6 @@ Plus, I can re-use these in my workshops and eventual classes ^_^
 Some tools require a particular version of python and a particular version of libraries.
 Here's a short deployment of virtual environments to install **GOATOOLS**
 Here we create 2 virtual envs and the readme contains a more detailed explanation than the scripts
+
+### 2. truc
+trasdflhjkaldsfghjkl;vdsgljhkfgdisl;
