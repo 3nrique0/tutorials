@@ -1,0 +1,5 @@
+Data downloaded from:
+ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/146/045/GCF_000146045.2_R64/
+
+On the:
+jeudi 29 juin 2017, 11:54:42 (UTC+0200)
