@@ -4,8 +4,6 @@
 ### CALCULATE GC CONTETNS OF A GENOME
 ### Or for the lolz, of any text file :-P
 
-pwd
-
 
 # Remove lines which are not relevant
 
