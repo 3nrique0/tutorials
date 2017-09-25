@@ -15,3 +15,12 @@ Here's a short deployment of virtual environments to install **GOATOOLS**
 Here we create 2 virtual envs and the readme contains a more detailed explanation than the scripts
 
 
+### 2. Linux introduction
+
+I use this hierarchy of files and dummy files to make workshops of initiation to linux in command line
+I'll add the sort of thing we do there.
+There are some sample files in *data* to make people practice with real files, and how to detect an empty file.
+On the playground we'll be creating projects to practice more advanced things, where all errors are acceptable.
+Once a script will be "ready" to work autonomously it will be placed in another folder.
+
+
