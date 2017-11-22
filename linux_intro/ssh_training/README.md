@@ -226,7 +226,7 @@ $ less /home/john/ssh_training/Results/John
 ```
 ---
 
-Coming for next session:
+##  Coming for next session:
 
 - Can you edit or modify files on your collegues folders ?
 - Can you create a file or a directory in your collegues folders ?
