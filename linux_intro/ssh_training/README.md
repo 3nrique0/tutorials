@@ -1,4 +1,4 @@
-
+```
    _______________             _______________
   |  ___________  |           |  ___________  |
   | |           | |           | |           | |
@@ -12,35 +12,43 @@
  /  ************  \           /  ************  \
 --------------------         --------------------
         LOCAL                        HOST
+```
 
-#SSH 
+# SSH - Remote login
 
 ## Objective
 
-Learn how to connect to a distant computer
-Get used to using the full path of files and directories
-Get used to using shortcuts like here (.), parent directory (..) and home (~)
-Learn how to edit a file on the terminal
-Learn how to copy a file from the host to the local computer
-Learn how to copy a file from the local computer to the host
+* Learn how to connect to a distant computer
+* Get used to using the full path of files and directories
+* Get used to using shortcuts like here (.), parent directory (..) and home (~)
+* Learn how to edit a file on the terminal
+* Learn how to copy a file from the host to the local computer
+* Learn how to copy a file from the local computer to the host
+
+---
 
 ## Other things to remember ?
 
-How a command is made:
+### How a command is made:
+```
 command -parameter1 -parameter2 argument1 argument2
+```
 
 Some basic commands:
 ls (and ll), cd, pwd, cp
 
 Symbols to remember:
-.	here, this directory
-..	parent directory
-~	Home directory, /home/user/
-^	Control key (ctrl)
->	Redirect output (stdout) to a file, remove any content of the file if it exists, create the file if it doesn't exist
->>	Append output (stdout) to a file, create the file if it doesn't exist
+* .	here, this directory
+* ..	parent directory
+* ~	Home directory, /home/user/
+* ^	Control key (ctrl)
+* >	Redirect output (stdout) to a file, remove any content of the file if it exists, create the file if it doesn't exist
+* >>	Append output (stdout) to a file, create the file if it doesn't exist
 
-Other stuff ?
+
+
+### Other stuff ?
+
 Terminals and file names are case-sensitive.
 user	Your user-name in the computer, all in lower-case 
 User	Your name or user-name with a capital letter.
@@ -48,7 +56,7 @@ User	Your name or user-name with a capital letter.
 Copy in a terminal:		Shift + Ctrl + c
 Paste in a terminal:	Shift + Ctrl + v
 
-
+---
 
 ## Definitions and requirements
 
