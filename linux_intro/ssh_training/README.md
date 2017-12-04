@@ -41,6 +41,7 @@ Symbols to remember:
 * `.` here, this directory
 * `..`	parent directory
 * `~`	Home directory, /home/user/
+* `-`	Previous working directory.
 * `^`	Control key (ctrl)
 * `>`	Redirect output (stdout) to a file, remove any content of the file if it exists, create the file if it doesn't exist
 * `>>`	Append output (stdout) to a file, create the file if it doesn't exist
