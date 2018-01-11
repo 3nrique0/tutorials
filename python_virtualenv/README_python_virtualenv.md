@@ -1,7 +1,7 @@
 # Setting up Python virtual environments
 
 If you have or require different versions of python with a different set of libraries,
-or if one of the programs you are using requires a particular python set-up that doesn't match 
+or if one of the programs you are using requires a particular python set-up that doesn't match
 your regular needs, stay a bit and read along.
 
 The commands in this README file are also present as a bash script in the same directory.
@@ -98,7 +98,7 @@ Creation of a python environment with the 3.5 version named *py35*
 
 ```bash
 cd ~/Environments
-virtualenv -p /usr/bin/python3.5 py35goatools
+virtualenv -p /usr/bin/python3.5 py35
 ```
 
 To "turn on" the environment source the activate executable from that environment:
@@ -114,12 +114,12 @@ A little reminder of the environment you are using should appear in the prompt
 
 ### b. Install the required libraries
 
-Pip will allow you to install some libraries for python, 
+Pip will allow you to install some libraries for python,
 these libraries will only be available in the environment which is currently in use.
 
 ```bash
 pip3 install numpy
-pip3 install fisher 
+pip3 install fisher
 pip3 install statsmodels
 pip3 install goatools
 ```
@@ -137,7 +137,7 @@ To create the list of libraries, read further in this file.
 cd ~/envs
 virtualenv -p /usr/bin/python3.5 py35bis
 source py35/bin/activate
-pip3 install -r py35goatools.txt
+pip3 install -r py35.txt
 ```
 
 
@@ -165,7 +165,7 @@ either in case you would like to copy/recreate this environment or
 in case you want to give a proper list of the libraries and versions required to run a given script.
 
 ```bash
-pip freeze --local > py35goatools.txt
+pip freeze --local > py35.txt
 ```
 
 
@@ -175,7 +175,7 @@ Once you don't require anymore a given virtual environment the way to remove it 
 directory
 
 ```bash
-rm -rf ~/Environments/py35goatools/
+rm -rf ~/Environments/py35/
 ```
 
 

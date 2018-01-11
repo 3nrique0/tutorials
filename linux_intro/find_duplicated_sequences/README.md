@@ -8,7 +8,14 @@ Enjoy !
 
 ---
 
-## Check the End Of Line character (EOL)
+## Formatting the input file
+
+Most errors come form poorly formatted files.
+The first part will be to check the formatting and to re-format the files.
+You must be in full control of the files that you will work with.
+
+
+### Check the End Of Line character (EOL)
 
 In raw text files, there is a character that allows the computer to know when to go to the next line. It's named an End Of Line (EOL).
 This are named **Control Characters**. There are a [lot of them](https://en.wikipedia.org/wiki/Control_character)
@@ -20,6 +27,12 @@ The characters we are looking for are:
 * Linux: *LF*, Line Feed, `\n`.
 * Comodore: *CR*, Carriage Return, `\r`  -- Legacy, not used anymore.
 * Windows: *CR+LF* Carriage Return and Line Feed, `\r\n`.
+
+| Type          | Character     | Meaning | System  |
+| ------------- |:-------------:| --------|-------:|
+| *LF*          | `\n`          | Line Feed | Linux |
+| *CR*          | `\r`          | Carriage Return | Comodore |
+| *CR+LF*       | `\r\n`        | Carriage Return + Line Feed | Windows |
 
 
 ### Check the ASCII code, for humans !!
