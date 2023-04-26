@@ -1,0 +1,16 @@
+#! This is the shebang, it allows to the computer and the user to know which executable is expected to run this
+
+# One single # allows to make a comment
+# Every commented line needs to have one
+# Comments are skipped when executing the script
+
+# However...
+
+#CAPS = a # Followed immediately by a word MAY serve as a parameter for a program
+#SBATCH allows to give parameters to the command sbatch, the launch command from slurm
+
+# When lines don't have a #, they are commands.
+# example
+
+fictitious_command -p 123 --in input_dir --out output.txt
+python myscript.py
