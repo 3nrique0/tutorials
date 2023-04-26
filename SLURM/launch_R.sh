@@ -3,8 +3,8 @@
 #SBATCH -J R_test
 ##SBATCH -p workq
 #SBATCH --mem=20M
-#SBATCH --mail-user=enrique.ortega@ird.fr
-#SBATHC --mail-type=ERROR
+#SBATCH --mail-user=sample.name@institute.com
+#SBATHC --mail-type=BEGIN,END,FAIL
 #SBATCH -e error.txt
 #SBATCH -o output.txt
 
