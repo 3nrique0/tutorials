@@ -10,6 +10,8 @@ This being a basic tutorial it can be applied elsewhere.
 This introduction will allow to open new questions to other tutorials like:
 
 * Introduction to Linux command line - bash
+* File permissions
+* Filesystem Hierarchy Standard (FHS)
 * How computers work
 * Advanced job launching in slurm (arrays)
 * Advanced job management - without being an administrator
