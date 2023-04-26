@@ -11,17 +11,13 @@ import sys
 
 
 ## First part of the script
-
 print("Hello ", os.getlogin(), "the current epoch (time in computers is:")
-
 print(time.time())
 
 
 ## Second part of the script
 time.sleep(60)
-
 print("Now 60 seconds have passed since the last print")
-
 print(time.time())
 
 
