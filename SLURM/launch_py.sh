@@ -10,6 +10,6 @@
 
 python --version > python_version.txt
 
-# module load system/Python-3.11.1
+# module load devel/python/Python-3.11.1
 
 python myscript.py
