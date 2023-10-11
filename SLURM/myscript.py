@@ -25,3 +25,25 @@ print(time.time())
 print("\nYour current version of python is")
 print(sys.version)
 print(sys.version_info)
+
+
+# Fouth part
+# Let's make correlations!
+
+print("\nFourth part")
+print("Let's make correlations!\n")
+
+import pandas as pd
+
+mtcars = pd.read_csv('https://vincentarelbundock.github.io/Rdatasets/csv/datasets/mtcars.csv')
+
+print("mpg~cyl\t",  mtcars.mpg.corr(mtcars.cyl))
+print("mpg~disp\t",  mtcars.mpg.corr(mtcars.disp))
+print("mpg~hp\t",  mtcars.mpg.corr(mtcars.hp))
+print("mpg~drat\t",  mtcars.mpg.corr(mtcars.drat))
+print("mpg~wt\t",  mtcars.mpg.corr(mtcars.wt))
+print("mpg~qsec\t",  mtcars.mpg.corr(mtcars.qsec))
+print("mpg~vs\t",  mtcars.mpg.corr(mtcars.vs))
+print("mpg~am\t",  mtcars.mpg.corr(mtcars.am))
+print("mpg~gear\t",  mtcars.mpg.corr(mtcars.gear))
+print("mpg~carb\t",  mtcars.mpg.corr(mtcars.carb))
