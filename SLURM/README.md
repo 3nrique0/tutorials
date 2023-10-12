@@ -33,7 +33,7 @@ Have a good read :-)
 
 A reminder of how a script is organised.
 
-### myscript.sh
+### firstScript.sh
 
 Very basic bash script to be launched with `bash` and with `sbatch`:
 
