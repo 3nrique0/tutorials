@@ -109,8 +109,6 @@ Only one part of the script will run, the other requires to load an environment 
 In this script the `output`, `error` and `mail` options are commented.
 Remove the comment `#` and try again
 
-Ed
-
 --------
 
 ## Launch R scripts
@@ -128,4 +126,39 @@ Here you can keep changing and adding parameters to sbatch.
 In this case the `output` and `error` files are given a name.
 This means that when you re-launch the script, these files will be overwritten.
 
-In this case I'd like you to learn how to get that png created back to your computer.
+In this case we create a png file.
+We need to learn how to get that png to your computer so you can see it or use it.
+
+### Copy a file from/to a distant server
+
+You can use an FTP client like filezilla to explore the files.
+
+
+#### Secure CoPy - scp
+
+It works just like `cp`.
+Secure CoPy It will require your password to the server.
+The distant file requires the username and the server before the path.
+
+On the terminal of **YOUR** computer:
+
+```bash
+scp  user@server:full/path/file  local/path/ 
+```
+
+#### Synchronize files and folders - rsync
+
+
+This tool allows to synchronize (copy) with different rules.
+The synchronization can be done remotely or locally, and is a standard for making back ups.
+The manual of `rsync` is a good place to get some recipes
+
+```bash
+rsync -av user@server:full/path/file  local/path/
+```
+
+#### Other ways to work remotely
+
+Some terminal emulators like MobaXterm can have a file exploring feature (usually an FTP).
+Some IDEs can include an ssh connection to work on a distant server.
+In some cases a [messager pigeon](https://www.tomshardware.com/news/yes-a-pigeon-is-still-faster-than-gigabit-fiber-internet) is a good idea :smile:
