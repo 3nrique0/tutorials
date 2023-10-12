@@ -24,8 +24,10 @@ It is an essential skill in order to become independent.
 
 Have a good read :-)
 
-In a schematic way we could say that the ==_commands_== go into your ==_analysis script_==.
-The ==_analysis script_== is launched into the cluster with the ==_launcher.sh_==.
+## How it is organized with the rest ?
+
+In a schematic way we could say that the _commands_ go into your _analysis script_.
+The _analysis script_ is launched into the cluster with the _launcher.sh_.
 
 > `commands` -> `myscript.[R | py | jl | pl | sh | cpp | jar ]` -> `launcher.sh`
 
