@@ -159,6 +159,7 @@ rsync -av user@server:full/path/file  local/path/
 
 #### Other ways to work remotely
 
-Some terminal emulators like MobaXterm can have a file exploring feature (usually an FTP).
-Some IDEs can include an ssh connection to work on a distant server.
-In some cases a [messager pigeon](https://www.tomshardware.com/news/yes-a-pigeon-is-still-faster-than-gigabit-fiber-internet) is a good idea :smile:
+- Some terminal emulators like MobaXterm can have a file exploring feature (usually an FTP).
+- Some IDEs can include an ssh connection to work on a distant server.
+- In some cases a [messager pigeon](https://www.tomshardware.com/news/yes-a-pigeon-is-still-faster-than-gigabit-fiber-internet) is a good idea :smile:.
+- `sshfs` is a module that allows to mount remote **f**ile **s**ystems through **ssh** as if they were a usb volume.
