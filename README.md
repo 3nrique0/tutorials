@@ -26,3 +26,18 @@ Once a script will be "ready" to work autonomously it will be placed in another 
 #### 2.1 Current projects
 
 A script to count the GC contents of a fasta file. Followed by the instructions to use it
+
+
+### 3. Slurm
+
+Slurm is a cluster management and job scheduling system.
+We access it thanks to Genotoul, a french calculation cluster specialized in bioinformatics maintained by MIAT unit from INRAE.
+https://bioinfo.genotoul.fr
+
+
+### Deprecated
+
+These are old lessons for python environments and QSE.
+QSE has been deprecated, and people use conda rather than virtual environments.
+They are still in this directory since they could be used as directories and files to explore and do other exercises with them.
+
