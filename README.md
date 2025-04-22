@@ -1,6 +1,6 @@
 # Tutorials
 
-Tutorials I've followed and I've shared with my co-workers and other bioinformatitians.
+Tutorials I've created and shared with my co-workers and other bioinformatitians.
 I know there are more resources for tutorials, but sometimes it's easier to refere to some common sources and scripts.
 Plus, I can re-use these in my workshops and eventual classes ^_^
 
