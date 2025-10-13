@@ -33,6 +33,8 @@ Do you wish to update your shell profile to automatically initialize conda?
 Update if necessary
 ```
 conda --version
+# if it doesn't work:
+eval "$(/home/$USER/miniforge3/bin/conda shell.bash hook)"
 ```
 
 Check the channels
