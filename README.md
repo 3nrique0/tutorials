@@ -35,6 +35,12 @@ We access it thanks to Genotoul, a french calculation cluster specialized in bio
 https://bioinfo.genotoul.fr
 
 
+### 4. Conda
+
+Introduction to conda. The course includes an introduction on reproducibility vocabulary, FAIR and TRUST principles, other tools to achieve this principles, and an explanation on conda distributions. The slides may be added later.
+
+Here's a practical work to create environments, switch install packages, remove libraries and a sample YML file to create an environment from it.
+
 ### Deprecated
 
 These are old lessons for python environments and QSE.
