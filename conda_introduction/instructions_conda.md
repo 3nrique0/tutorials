@@ -93,7 +93,7 @@ conda install -h
 
 Are there any options for create an environment ?
 
-
+----
 
 ## 3.- Working with environments
 
@@ -107,7 +107,7 @@ conda create -n environment_name
 conda create -n env_name python=3.5
 
 # Environment from a YML file
-
+conda env create --file environment.yml 
 
 # Simulate the creation of an environment - dry run
 
@@ -185,20 +185,30 @@ List all environments
 conda env list
 ```
 
-Activating an environment will cause to switch to that environment
+The best method is to deactivate an environment, then activate another.
+
+```
+conda activate env1
+conda deactivate
+conda activate env2
+```
+
+
+Activating an environment will cause to switch to that environment. When deactivatig an environment this method will take you back to the previous environment.
 ```
 conda activate env1
 conda activate env2
 ```
 
 
-List packages of a given environment
+
+### List packages of a given environment
 ```
 # List all packages installed into the environment 'myenv'::
 conda list -n myenv
 
 # List all packages that begin with the letters "py", using regex::
-conda list ^py
+conda list '^py'
 
 ```
 
