@@ -134,11 +134,11 @@ https://conda-forge.org/packages/
 Search from the command line.
 
 ```
-conda search urlpath 	# with full name 
-conda search pat		# with partial name -> pattern anywhere in the name
-conda search pat*		# pattern starting with 'pat'
-conda search r=3.		# with partial version
-conda search r=3.5.1		# with full version
+conda search urlpath 	  # with full name 
+conda search pat	  	  # with partial name -> pattern anywhere in the name
+conda search 'pat*'	  	# pattern starting with 'pat'
+conda search r=3.		    # with partial version
+conda search r=3.5.1  	# with full version
 ```
 
 ### Install packages
